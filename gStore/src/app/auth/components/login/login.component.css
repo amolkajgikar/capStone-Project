@@ -1,0 +1,23 @@
+.container-fluid{
+    background-color: darkgrey;
+}
+
+
+
+
+.container{
+    margin-top: 60px;
+    
+}
+.border{
+    border-left: 2px solid lightgray ;
+    height: 100%;
+}
+img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    border: 2px solid black;
+    width: 800px;
+    height: 300px;
+}
