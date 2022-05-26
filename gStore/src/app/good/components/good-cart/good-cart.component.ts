@@ -7,7 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./good-cart.component.css']
 })
 export class GoodCartComponent implements OnInit {
-  @Input() good:GoodModel;
+  @Input() good: GoodModel;
 
   constructor() { }
 

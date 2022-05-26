@@ -14,6 +14,7 @@ export class HomeComponent implements OnInit {
   goods: GoodModel[];
 
   ngOnInit(): void {
+    this.goods=[];
     let good = new GoodModel();
     good.id=1;
     good.name="OASSIS";
@@ -21,6 +22,16 @@ export class HomeComponent implements OnInit {
     good.price= 10;
     good.imgSrc="https://z.nooncdn.com/tr:n-t_800/v1628162055/N39158510A_1.jpg";
     this.goods.push(good);
+
+    
+    let good2 = new GoodModel();
+    good2.id=2;
+    good2.name="MILK";
+    good2.title="DAIRY Produt";
+    good2.price= 20;
+    good2.imgSrc="https://z.nooncdn.com/tr:n-t_800/v1646974899/N29042954A_1.jpg";
+    this.goods.push(good2);
+    
 
 
 

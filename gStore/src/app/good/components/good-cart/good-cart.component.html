@@ -1,8 +1,9 @@
 <div class="card" style="width: 14rem;">
-    <img src="" class="card-img-top" alt="...">
+    <img [src]="good.imgSrc" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">  </h5>
-      <p class="card-text">  </p>
+      <h5 class="card-title">{{good.name}}</h5>
+      <p class="card-text">Title : {{good.title}}  </p>
+      <p class="card-text">Price : {{good.price}}  </p>
       <a href="#" class="btn btn-primary">Add to Cart</a>
     </div>
   </div>
