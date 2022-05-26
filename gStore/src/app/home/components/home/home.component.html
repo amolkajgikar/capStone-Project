@@ -1,9 +1,14 @@
 <app-header></app-header>
-<p>Home Works!!</p>
-
 <!-- <app-good-cart [good]="goods[0]"></app-good-cart>
 <app-good-cart [good]="goods[1]"></app-good-cart> -->
-<app-good-cart *ngFor="let good of goods" [good]="good"></app-good-cart>
+
+<div class="row container">
+    <div class="col-md-3" *ngFor="let good of goods">
+        <app-good-cart  [good]="good"></app-good-cart>
+    </div>
+
+</div>
+
 
 
 

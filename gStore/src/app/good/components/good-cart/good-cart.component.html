@@ -2,8 +2,11 @@
     <img [src]="good.imgSrc" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">{{good.name}}</h5>
-      <p class="card-text">Title : {{good.title}}  </p>
-      <p class="card-text">Price : {{good.price}}  </p>
+      <p class="card-text">Title : {{good.title ? good.title:"No information Available"}}  </p>
+      <p class="card-text">Price :
+        <ng-container *ngIf="good.price"> {{good.price}}</ng-container>
+        <ng-container *ngIf="!good.price"> Not Avaiable</ng-container>
+        </p>
       <a href="#" class="btn btn-primary">Add to Cart</a>
     </div>
   </div>
