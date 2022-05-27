@@ -1,4 +1,9 @@
-
+.headline{
+    border-color: black;
+    font-style: normal;
+    background-color: yellow;
+    
+}
 
 img{
     width:100%;
